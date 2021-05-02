@@ -1,0 +1,73 @@
+
+.navbar_main{
+
+    background-color: rgba(6, 6, 46, 0.2);
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    color: white;
+position: fixed;
+top: 0;
+right: 0;
+left: 0;
+    /* box-shadow: 2px 2px 5px black; */
+
+    justify-content: space-between;
+    flex-direction: row;
+
+    align-items: center;
+}
+.navbar_links{
+     display: flex;
+    color: white;
+
+ 
+ 
+    justify-content: space-between;
+    flex-direction: row;
+
+    align-items: center;
+
+}
+a{
+  margin-right: 20px;
+}
+.header_main{
+    background-image: url("./WhatsApp Image 2021-05-02 at 1.46.23 PM.jpeg");
+
+  /* Add the blur effect */
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+
+  /* Full heightdi */
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    height: 100vh;
+
+}
+.header_body{
+    border: 2px solid white;
+    padding: 20px;
+    width: auto;
+margin: 6.6rem;
+
+
+text-shadow: 2px 2px 10px black;
+color: white;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(223, 223, 223, 0.5);
+}
+h6{
+    font-size: 30px !important;
+}
