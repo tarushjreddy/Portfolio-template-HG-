@@ -1,0 +1,39 @@
+.container{
+   
+height:auto;
+width:100%;
+font-weight:500;
+display: flex ;
+flex-direction: row ;
+padding-top: 20px;
+justify-content: space-around;
+}
+
+.leftcontainer
+{
+    /* background-color: rgba(12, 12, 14, 0.898); */
+  height:auto;
+width:100%;
+font-weight:500;
+color: black;
+  padding-top:  40px;
+  padding-left:  40px;
+  padding-right:  40px;
+
+  display: flex ;
+  flex-direction: column ;
+  
+  
+   
+}
+
+.rightcontainer{
+
+height:auto;
+width:100%;
+font-weight:500;
+display: flex ;
+flex-direction: column;
+
+
+}
